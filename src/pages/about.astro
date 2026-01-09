@@ -1,102 +1,179 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="About | Suraj Mishra" description="About Suraj Mishra Lorem Ipsum">
+<BaseLayout
+	title="About | Suraj Mishra"
+	description="About Suraj Mishra Lorem Ipsum"
+>
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
 				title="About"
 				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				
-			</Hero>
+			/>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Welcome to my portfolio! I'm Suraj Mishra, a Master's candidate in Computer Science at Northeastern University, specializing in full-stack development, data analytics, and machine learning. 
+						I’m a Software Engineer with a strong backend and
+						systems-focused mindset, experienced in building
+						production-grade applications that scale under
+						real-world load. I’ve worked extensively with Java,
+						Node.js, React, and PostgreSQL/MongoDB, designing and
+						optimizing REST APIs, data access layers, and concurrent
+						workflows.
 					</p>
 					<p>
-						My journey has spanned from dynamic web development internships to impactful research projects, such as a Movie Recommendation System and a Real-time Drowsiness Detector. Here, you'll find a showcase of my work that highlights my passion for creating technology that improves user experiences and drives efficiency. 
+						Across internships and industry roles, I’ve consistently
+						delivered 30%+ performance improvements by refactoring
+						backend services, optimizing database queries, and
+						improving system design. Currently pursuing my Master’s
+						in Computer Science at Northeastern University, I’ve
+						gained hands-on experience through optimizing backend
+						APIs, designing reusable frontend architectures, and
+						building analytics dashboards.
 					</p>
 					<p>
-						Dive into my projects to see how I blend technical expertise with innovative problem-solving to build smarter, user-centered solutions.
+						I enjoy working on problems involving scalability,
+						performance optimization, concurrency, and clean system
+						design, and I thrive in collaborative Agile
+						environments.
 					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content">
+					<div class="experience-item">
+						<h3>ThreadwireAI</h3>
+						<p class="role">
+							Full-Stack Developer | Dec 2025 - Present
+						</p>
+						<ul>
+							<li>
+								Built an enterprise AI-powered manufacturing
+								intelligence platform using React 19,
+								Node.js/Express, and MongoDB.
+							</li>
+							<li>
+								Architected a RAG-based AI chatbot using
+								LangChain and Pinecone for real-time natural
+								language queries.
+							</li>
+							<li>
+								Designed multi-tenant SaaS architecture with
+								secure customer data isolation and JWT/OAuth 2.0
+								authentication.
+							</li>
+						</ul>
+					</div>
+					<br />
+					<div class="experience-item">
+						<h3>AthenaAI</h3>
+						<p class="role">
+							Software Engineer | Oct 2025 - Present
+						</p>
+						<ul>
+							<li>
+								Architected and deployed a full-stack Next.js
+								application on AWS EC2, integrating OpenAI GPT-4
+								API.
+							</li>
+							<li>
+								Reduced presentation generation time by 80% by
+								implementing parallel slide generation.
+							</li>
+							<li>
+								Built PDF export pipeline using Puppeteer and
+								designed MongoDB data persistence layer.
+							</li>
+						</ul>
+					</div>
+					<br />
+					<div class="experience-item">
+						<h3>IpserLab LLC</h3>
+						<p class="role">
+							Software Engineer Intern | Jan 2025 - Jun 2025
+						</p>
+						<ul>
+							<li>
+								Designed scalable backend services for a quiz
+								creation platform using Java and PostgreSQL.
+							</li>
+							<li>
+								Reduced API latency by 30% by implementing JDBC
+								connection pooling and query tuning.
+							</li>
+							<li>
+								Re-architected relational database schemas
+								improving execution time by 25%.
+							</li>
+						</ul>
+					</div>
+					<br />
+					<div class="experience-item">
+						<h3>Northeastern University</h3>
+						<p class="role">
+							Graduate Teaching Assistant | Jun 2024 - Dec 2024
+						</p>
+						<ul>
+							<li>
+								Mentored 60+ students on backend system design
+								concepts, REST APIs, and full-stack development.
+							</li>
+							<li>
+								Reviewed 200+ code submissions focusing on
+								algorithmic efficiency and architectural best
+								practices.
+							</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Northeastern University, Boston, MA
-						Khoury College of Computer Sciences
-						Candidate for a Master of Science in Computer Science (Sept 2023 – Present)
-						Expected Graduation: 2025
-						Relevant Courses: Algorithms, Database Management Systems, Web Development</p>
-<br><br>
-					<p>SRM Institute of Science and Technology, Chennai, India
-						Bachelor of Technology in Computer Science (Graduated June 2023)
-						GPA: 9.03/10
-						Relevant Courses: Object Oriented Programming, Data Structures, Databases, Software Engineering, AI</p>
+					<p>
+						<strong>Northeastern University, Boston, MA</strong><br
+						/>
+						M.S. Computer Science | Sep 2023 - Dec 2025<br />
+						Relevant Courses: Web development, Program Design Paradigm,
+						Natural Language Processing
+					</p>
+					<br />
+					<p>
+						<strong
+							>SRM Institute of Science and Technology, India</strong
+						><br />
+						B.Tech Computer Science | Jul 2019 - Jun 2023<br />
+						Relevant Courses: Data structures and algorithms, Artificial
+						Intelligence, OOP, DBMS
+					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>Programming Languages
-<br>
-						Java, C++, Python, Advanced
-						JavaScript, R: Intermediate
-<br>
-<br>
-						Databases
-						<br>
-						MySQL, MongoDB: Proficient in database management and optimization
-						<br>
-						<br>
-						Web Technologies
-<br>						
-						Frontend: HTML, CSS, React.js, Material UI
-						<br>
-						Backend: Node.js, Express.js
-						<br>
-						State Management: Redux Toolkit, Redux Toolkit Query
-						<br>
-						<br>
-						Analytics Tools
-						<br>
-						Data Visualization and Analysis: Power BI, Tableau
-						<br>
-						Spreadsheet Proficiency: Advanced Excel skills
-						<br>
-						<br>
-						Machine Learning & AI
-						<br>
-						Frameworks: TensorFlow, Pandas, NumPy
-						<br>
-						Specializations: Convolutional Neural Networks (CNN)
-						<br>
-						<br>
-						Integration & APIs
-						<br>
-						Database Integration: PyMySQL
-						<br>
-						Web Services: RESTful APIs
-						<br>
-						<br>
-						Certifications
-						<br>
-						Oracle Database Certification
-						<br>
-						Machine Learning by Dr. Andrew Ng on Coursera
-						<br>
-						<br>
-						<br>
-						My technical toolkit is constantly evolving, as I stay abreast of the latest technologies and methodologies. I am passionate about leveraging my skills to create impactful, user-centric solutions.</p>
+					<p>
+						<strong>Languages:</strong> Java, C++, Python, JavaScript,
+						TypeScript, SQL
+					</p>
+					<p>
+						<strong>Backend & Systems:</strong> Distributed Systems, RESTful
+						APIs, Multi-threading, Concurrent Programming, System Design
+					</p>
+					<p>
+						<strong>Databases & Cloud:</strong> PostgreSQL, MySQL, MongoDB,
+						Redis, AWS (EC2), Docker, CI/CD
+					</p>
+					<p>
+						<strong>Frontend:</strong> React, Node.js, Next.js, HTML/CSS
+					</p>
 				</div>
 			</section>
 		</main>
