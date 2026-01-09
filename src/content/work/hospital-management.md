@@ -1,15 +1,19 @@
 ---
 title: Hospital Management System
 publishDate: 2024-12-01 00:00:00
-img: /assets/stock-4.jpg
+img: /assets/hospital-system.png
 img_alt: Hospital Management System Interface
 description: |
-  System to handle patient records, appointments, and staff workflows.
+  A comprehensive hospital administration system for managing patient records, appointment scheduling, and staff allocation. Prioritizes data integrity, security, and role-based access control.
 tags:
+  - Backend Architecture
+  - Relational Databases
+  - Security Compliance
   - System Design
-  - Database
-  - Backend
 ---
+
+### Project Overview
+Developed a backend-heavy system to digitize hospital operations. The focus was on creating a secure, reliable, and scalable foundation for sensitive medical data management.
 
 ### Key Features
 - **Modular Design**: Emphasized modular backend design for scalability and maintainability.

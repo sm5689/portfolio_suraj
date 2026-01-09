@@ -1,16 +1,19 @@
 ---
 title: Kanbas React Web App
 publishDate: 2024-04-01 00:00:00
-img: /assets/stock-2.jpg
+img: /assets/kanbas-lms.png
 img_alt: Kanbas Learning Management System
 description: |
-  Developed a scalable educational web application inspired by Canvas LMS using React and Redux.
+  A robust Learning Management System (LMS) inspired by Canvas, featuring a React/Redux frontend and a scalable Node.js backend. Implements role-based access control and efficient state management for a seamless user experience.
 tags:
-  - React
-  - Node.js
-  - Redux
+  - React & Redux
+  - Node.js API
   - MongoDB
+  - Role-Based Access
 ---
+
+### Project Overview
+Developed a full-stack educational platform designed to handle complex course structures, assignments, and quizzes. The application mimics the functionality of industry-standard LMS platforms, supporting distinct workflows for students and faculty.
 
 ### Key Features
 - **Performance**: Optimized load time from 3.2s to 2.7s via code splitting and lazy loading.

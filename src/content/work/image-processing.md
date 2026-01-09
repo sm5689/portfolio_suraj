@@ -1,15 +1,19 @@
 ---
 title: Image Processing & Enhancement
 publishDate: 2024-12-01 00:00:00
-img: /assets/stock-1.jpg
+img: /assets/image-processing.png
 img_alt: Image Processing Application Interface
 description: |
-  Architected a multi-threaded, Java-based image processing system with MVC architecture.
+  High-performance image processing engine built with Java, featuring multi-threaded operations and a clean MVC architecture. Applied advanced design patterns to optimize rendering pipelines for minimal latency.
 tags:
-  - Java
-  - Concurrency
-  - UI/UX
+  - Java Concurrency
+  - Design Patterns
+  - System Optimization
+  - Swing/AWT
 ---
+
+### Project Overview
+Architected a robust desktop application capable of handling complex image manipulations in real-time. The system supports over 100 concurrent operations, leveraging a custom thread pool to ensure UI responsiveness while processing large datasets.
 
 ### Key Features
 - **Concurrent Processing**: Architected a multi-threaded system supporting 100+ concurrent operations across JPG, PNG, and PPM formats.

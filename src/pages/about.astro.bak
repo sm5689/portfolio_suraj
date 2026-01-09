@@ -1,0 +1,282 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<BaseLayout
+	title="About | Suraj Mishra"
+	description="About Suraj Mishra Lorem Ipsum"
+>
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			/>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						I’m a Software Engineer with a strong backend and
+						systems-focused mindset, experienced in building
+						production-grade applications that scale under
+						real-world load. I’ve worked extensively with Java,
+						Node.js, React, and PostgreSQL/MongoDB, designing and
+						optimizing REST APIs, data access layers, and concurrent
+						workflows.
+					</p>
+					<p>
+						Across internships and industry roles, I’ve consistently
+						delivered 30%+ performance improvements by refactoring
+						backend services, optimizing database queries, and
+						improving system design. Currently pursuing my Master’s
+						in Computer Science at Northeastern University, I’ve
+						gained hands-on experience through optimizing backend
+						APIs, designing reusable frontend architectures, and
+						building analytics dashboards.
+					</p>
+					<p>
+						I enjoy working on problems involving scalability,
+						performance optimization, concurrency, and clean system
+						design, and I thrive in collaborative Agile
+						environments.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content">
+					<div class="experience-item">
+						<h3>ThreadwireAI</h3>
+						<p class="role">
+							Full-Stack Developer | Dec 2025 - Present
+						</p>
+						<ul>
+							<li>
+								Built an enterprise AI-powered manufacturing
+								intelligence platform using React 19,
+								Node.js/Express, and MongoDB.
+							</li>
+							<li>
+								Architected a RAG-based AI chatbot using
+								LangChain and Pinecone for real-time natural
+								language queries.
+							</li>
+							<li>
+								Designed multi-tenant SaaS architecture with
+								secure customer data isolation and JWT/OAuth 2.0
+								authentication.
+							</li>
+						</ul>
+					</div>
+					<br />
+					<div class="experience-item">
+						<h3>AthenaAI</h3>
+						<p class="role">
+							Software Engineer | Oct 2025 - Present
+						</p>
+						<ul>
+							<li>
+								Architected and deployed a full-stack Next.js
+								application on AWS EC2, integrating OpenAI GPT-4
+								API.
+							</li>
+							<li>
+								Reduced presentation generation time by 80% by
+								implementing parallel slide generation.
+							</li>
+							<li>
+								Built PDF export pipeline using Puppeteer and
+								designed MongoDB data persistence layer.
+							</li>
+						</ul>
+					</div>
+					<br />
+					<div class="experience-item">
+						<h3>IpserLab LLC</h3>
+						<p class="role">
+							Software Engineer Intern | Jan 2025 - Jun 2025
+						</p>
+						<ul>
+							<li>
+								Designed scalable backend services for a quiz
+								creation platform using Java and PostgreSQL.
+							</li>
+							<li>
+								Reduced API latency by 30% by implementing JDBC
+								connection pooling and query tuning.
+							</li>
+							<li>
+								Re-architected relational database schemas
+								improving execution time by 25%.
+							</li>
+						</ul>
+					</div>
+					<br />
+					<div class="experience-item">
+						<h3>Northeastern University</h3>
+						<p class="role">
+							Graduate Teaching Assistant | Jun 2024 - Dec 2024
+						</p>
+						<ul>
+							<li>
+								Mentored 60+ students on backend system design
+								concepts, REST APIs, and full-stack development.
+							</li>
+							<li>
+								Reviewed 200+ code submissions focusing on
+								algorithmic efficiency and architectural best
+								practices.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<br />
+				<div class="experience-item">
+					<h3>Hexaware Technologies</h3>
+					<p class="role">Java Developer | Apr 2022 - Aug 2023</p>
+					<ul>
+						<li>
+							Designed, developed, and maintained enterprise-grade
+							Java applications using Spring Boot and Spring MVC.
+						</li>
+						<li>
+							Developed core e-commerce functionalities including
+							user registration, product catalog, cart, checkout,
+							and order management.
+						</li>
+						<li>
+							Integrated payment gateways and implemented secure
+							transaction handling with proper validation.
+						</li>
+					</ul>
+				</div>
+				<br />
+				<div class="experience-item">
+					<h3>Internship Studio</h3>
+					<p class="role">
+						Web-development Intern | Jan 2022 - Mar 2022
+					</p>
+					<ul>
+						<li>
+							Launched full-stack e-commerce platform with
+							scalable Node.js backend and 15 RESTful APIs.
+						</li>
+						<li>
+							Enhanced server-side performance using caching
+							strategies, reducing page load time from 2.8s to
+							2.5s.
+						</li>
+						<li>
+							Engineered normalized MySQL schema managing 10,000+
+							records across 8 tables.
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<section>
+			<h2 class="section-title">Education</h2>
+			<div class="content">
+				<p>
+					<strong>Northeastern University, Boston, MA</strong><br />
+					M.S. Computer Science | Sep 2023 - Dec 2025<br />
+					Relevant Courses: Web development, Program Design Paradigm, Natural
+					Language Processing
+				</p>
+				<br />
+				<p>
+					<strong
+						>SRM Institute of Science and Technology, India</strong
+					><br />
+					B.Tech Computer Science | Jul 2019 - Jun 2023<br />
+					Relevant Courses: Data structures and algorithms, Artificial Intelligence,
+					OOP, DBMS
+				</p>
+			</div>
+		</section>
+		<section>
+			<h2 class="section-title">Skills</h2>
+			<div class="content">
+				<p>
+					<strong>Languages:</strong> Java, C++, Python, JavaScript, TypeScript,
+					SQL
+				</p>
+				<p>
+					<strong>Backend & Systems:</strong> Distributed Systems, RESTful
+					APIs, Multi-threading, Concurrent Programming, System Design
+				</p>
+				<p>
+					<strong>Databases & Cloud:</strong> PostgreSQL, MySQL, MongoDB,
+					Redis, AWS (EC2), Docker, CI/CD
+				</p>
+				<p>
+					<strong>Frontend:</strong> React, Node.js, Next.js, HTML/CSS
+				</p>
+			</div>
+		</section>
+	</div>
+
+	<ContactCTA />
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
